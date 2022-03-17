@@ -18,7 +18,11 @@ img.white {
 	&:hover {
 		box-shadow: 0px 0px 12px $white;
 		transition: all 0.2s ease-in;
-		border-radius: 50%;
+		border-radius: 51%;
+		-webkit-border-radius: 51%;
+		-moz-border-radius: 51%;
+		-ms-border-radius: 51%;
+		-o-border-radius: 51%;
 	}
 }
 
