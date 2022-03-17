@@ -1,0 +1,40 @@
+.footer-7 {
+  font-size: 0.83em;
+  text-transform: uppercase;
+  color: $dark;
+}
+
+footer.footer-7 {
+  padding: 1.2em 3em 1.2em 3em;
+}
+
+.footer-7 span.spanblock {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-7 span.spanblock-sm {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+.footer-7 span.company {
+  display: inline;
+  color: $dark-grey;
+  font-weight: 700;
+  text-transform: initial;
+  font-family: "Lato", sans-serif;
+  padding-left: 5px;
+}
+
+.footer-7 span a {
+  text-decoration: none !important;
+}
+
+.footer-7 span a:hover {
+  text-decoration: underline;
+}
+
+footer:not(.bg--primary):not(.bg--dark) a {
+  color: $dark;
+}

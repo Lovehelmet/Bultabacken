@@ -1,0 +1,84 @@
+.menu-vertical {
+  margin: 0 0 0 50px !important;
+  text-transform: uppercase;
+}
+
+.menu-vertical > li > a,
+.menu-vertical > li > .modal-instance > a {
+  color: #fff;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.menu-vertical > li.nav-item.active a {
+  opacity: 1;
+  color: #e96f28;
+}
+
+.menu-vertical li:not(:hover):not(.dropdown--active) {
+  opacity: 0.95;
+}
+
+.menu-horizontal > li,
+.menu-vertical > li {
+  font-family: "trade-gothic-next-condensed", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+  font-size: 1em;
+  letter-spacing: 0.05em;
+}
+
+.menu-horizontal > li > a,
+.menu-horizontal > li > .modal-instance > a {
+  font-weight: 600;
+}
+
+.menu-horizontal > li.nav-item.active a {
+  opacity: 1;
+  color: #252525;
+  padding-bottom: 3px;
+  border-bottom: none;
+}
+
+.menu-vertical li:not(:last-child) {
+  margin-bottom: initial;
+}
+
+.bar {
+  padding: 0.4em 0 0.8em 0;
+}
+
+.bar .logo {
+  max-height: 6.5em;
+  max-width: none;
+  margin: 0;
+  position: relative;
+  top: -3px;
+}
+
+#menu2 ul,
+ol {
+  list-style: none;
+  line-height: 5.19714286em;
+  text-transform: uppercase;
+}
+
+.menu-horizontal > li:not(:hover) > a,
+.menu-horizontal > li:not(:hover) > span,
+.menu-horizontal > li:not(:hover) > .modal-instance > .modal-trigger {
+  opacity: 0.8;
+}
+
+.main-nav-container {
+  position: fixed;
+  top: 13px;
+  padding-left: 13px;
+  z-index: 20;
+  margin-bottom: -130px;
+  display: none;
+}
+
+.icon.icon--sm.stack-interface.stack-menu {
+  margin-top: 8px;
+  margin-bottom: -3px;
+}

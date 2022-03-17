@@ -1,0 +1,40 @@
+.clear {
+  display: block;
+}
+
+.hide {
+  display: none !important;
+}
+
+.show {
+  display: block !important;
+}
+
+.outline {
+  outline: 1px solid $outline;
+}
+
+.black {
+  color: $dark !important;
+}
+
+.white {
+  color: $white !important;
+}
+
+.bg-white {
+  background: $white !important;
+}
+
+hr.short {
+  width: 2.78571429em;
+  border-color: $primary;
+}
+
+.outline {
+  outline: 1px solid $outline;
+}
+
+.op50 {
+  opacity: 0.5;
+}
